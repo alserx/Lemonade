@@ -94,7 +94,7 @@ fun LemonAppContent(modifier: Modifier = Modifier) {
         when (activeButton) {
             1 -> LemonButton(
                 itemClicked = {
-                    squeezeCount = (2..6).random()
+                    squeezeCount = (2..4).random()
                     activeButton = 2
                 },
                 textResourceId = R.string.tree_string,
